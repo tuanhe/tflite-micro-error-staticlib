@@ -1,4 +1,5 @@
-1, make (to generate the .o )  
-2, make lib (to generate the .a lib)  
+1, make (to generate the .o and the static lib )  
+2, cp the header and static lib to the free-e-sdk/software/tfcpp 
+
 
         

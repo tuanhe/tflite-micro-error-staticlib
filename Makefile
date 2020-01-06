@@ -33,13 +33,7 @@ LDFLAGS += -lm
 	$(RISCV_GCC) $(CCFLAGS) $(INCLUDES) -c $< -o $@
 
 micro_error_reporter_test : $(OBJS)
-	$(RISCV_GXX) $(LDFLAGS) $(OBJS) \
-	-o $@
-
-libhubin :
-	$(RISCV_AR) rsc libhubin.a $(OBJS)
-
-lib: libhubin 
+	$(RISCV_AR) crs $@ $(OBJS) 
 
 all: micro_error_reporter_test
 
