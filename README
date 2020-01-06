@@ -1,0 +1,4 @@
+1, make (to generate the .o )  
+2, make lib (to generate the .a lib)  
+
+        
